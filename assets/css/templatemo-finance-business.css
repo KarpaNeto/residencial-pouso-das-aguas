@@ -1170,7 +1170,7 @@ footer .contact-form button.filled-button:hover {
 /* Sub-footer Style */
 
 .sub-footer {
-	background-color: #343434;
+	background-color: rgba(0,0,0,0.7);
 	text-align: center;
 	padding: 25px 0px;
 }
@@ -1188,12 +1188,36 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+#residencial-bg {
+	background-image: url(../images/about.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 230px 0px 150px 0px;
-	color: #fff;
+}
+
+#acomodacoes-bg {
+	background-image: url(../images/slide_03.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#praia-bg {
+	background-image: url(../images/praia-bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contato-bg {
+	background: url(../images/fun-facts-bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .page-heading h1 {
@@ -1215,7 +1239,7 @@ footer .contact-form button.filled-button:hover {
 
 /* team */
 
-.team {
+/* .team {
 	background-color: #f7f7f7;
 	margin-top: 140px;
 	margin-bottom: -140px;
@@ -1249,7 +1273,7 @@ footer .contact-form button.filled-button:hover {
 
 .team-item .down-content p {
 	margin-bottom: 20px;
-}
+} */
 
 
 /* Single Service */
