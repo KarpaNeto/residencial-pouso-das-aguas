@@ -977,7 +977,11 @@ ul.slick-dots {
 	color: var(--blue-color);
 }
 
+/* map */
 
+.map__container {
+	margin-top:8.75rem;
+}
 
 /* Partners Style */
 
@@ -989,6 +993,12 @@ ul.slick-dots {
 	margin-top: 140px;
 	background-color: #f7f7f7;
 	padding: 60px 0px;
+}
+
+.partners .owl-stage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .partners .owl-item {
