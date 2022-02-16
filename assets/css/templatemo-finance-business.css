@@ -612,7 +612,49 @@ ul.slick-dots {
 }
 
 
+/* BTN-WHATSAPP */
+.wts-btn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50px;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+	display: grid;
+	place-items: center;
+	animation: pulse 2s infinite;
+}
 
+.wts-btn a {
+    color: #fff;
+	animation: pulse 2s infinite;
+}
+
+@media screen and (max-width:768px) {
+
+    .wts-btn {
+        bottom: 25px;
+        right: 20px;
+    }
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
+}
 
 /* Services */
 
@@ -647,7 +689,7 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: url(../images/fun-facts-bg.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -687,7 +729,7 @@ ul.slick-dots {
 
 .count-area-content {
 	text-align: center;
-	background-color: rgba(250, 250, 250, 0.1);
+	background-color: rgba(250, 250, 250, 0.2);
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
 }
@@ -705,7 +747,6 @@ ul.slick-dots {
 	color: #fff;
 	letter-spacing: 0.5px;
 }
-
 
 
 /* More Info */
@@ -1323,6 +1364,9 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Style */
 @media (max-width: 768px) {
+	html {
+		font-size: 80%;
+	}
 	.sub-header {
 		display: none;
 	}
