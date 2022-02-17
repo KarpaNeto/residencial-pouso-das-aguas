@@ -1,10 +1,4 @@
-/* 
-
-TemplateMo - Finance Business
-
-https://templatemo.com/tm-545-finance-business
-
-*/
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@500&family=Merienda:wght@400;700&display=swap');
 :root {
 	--blue-color: #30C2DB;
 }
@@ -291,8 +285,10 @@ header .navbar {
 .navbar .navbar-brand h2 {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.5rem;
-	font-weight: 700;
+	font-size: 1.25rem;
+	margin-left: .5rem;
+	font-family: 'Merienda', cursive;
+	font-weight: 500;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
