@@ -1189,8 +1189,8 @@ footer .contact-form button.filled-button:hover {
 }
 
 #residencial-bg {
-	background-image: url(../images/about.jpg);
-	background-position: center center;
+	background-image: url(../images/about.png);
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1336,6 +1336,17 @@ footer .contact-form button.filled-button:hover {
 .tabs-content img {
 	max-width: 100%;
 	overflow: hidden;
+}
+
+.tabs-content .info-quartos {
+	padding-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.tabs-content .info-quartos i {
+	font-size: 1.25rem;
 }
 
 .tabs-content h4 {
