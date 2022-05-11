@@ -1400,6 +1400,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
+/* ====== acomodações ======= */
 
 
 
@@ -1540,4 +1541,10 @@ footer .contact-form button.filled-button:hover {
 		color: var(--blue-color) !important;
 		border-bottom: none !important;
 	}
+}
+
+
+
+#slider-residencial {
+	margin-bottom: 16px;
 }
